@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <question type="multichoice">
 	<name>
-		<text>Demo question à choix multiples</text>
+		<text>Question vrai/faux</text>
 	</name>
 	<questiontext format="html">
-		<text>Quel est la bonne réponse ?</text>
+		<text>Cette affirmation est-elle vraie ou fausse ?</text>
 	</questiontext>
 	<penalty>1</penalty>
 	<defaultgrade>1</defaultgrade>
@@ -15,13 +15,7 @@
 		</feedback>
 	</answer>
 	<answer fraction="0">
-		<text>Une mauvaise réponse</text>
-		<feedback>
-			<text>Ooops!</text>
-		</feedback>
-	</answer>
-	<answer fraction="0">
-		<text>Une autre mauvaise réponse</text>
+		<text>Ceci est la mauvaise réponse</text>
 		<feedback>
 			<text>Ooops!</text>
 		</feedback>
